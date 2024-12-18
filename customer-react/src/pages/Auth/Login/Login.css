@@ -1,0 +1,85 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px; 
+    padding-bottom: 60px;
+  }
+  .login-block {
+    padding: 40px 0;
+  }
+  .login-card {
+    width: 100%;
+    max-width: 600px; /* Giới hạn chiều rộng tối đa */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-form .form-control {
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-button {
+    width: 100%; /* Đảm bảo nút bấm chiếm toàn bộ chiều rộng của form */
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .login-button {
+    border: 1px solid #079143;
+    background-color: white;
+    color: #079143;
+  }
+  
+  .login-button:hover {
+    background-color: #079143;
+    color: white;
+  }
+  
+  .Signup-button {
+    width: 40%;
+    background-color: #079143;
+    border: 1px solid #079143;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .Signup-button:hover {
+    background-color: white;
+    color: #079143;
+    border: 1px solid #079143;
+  }
+  
+  .forgot-password {
+    display: block;
+    color: #079143;
+    text-decoration: none;
+    text-align: right; /* Căn sang phải để phù hợp trên màn hình nhỏ */
+    margin-bottom: 15px; /* Khoảng cách dưới để không bị chồng lên nút login */
+  }
+  
+  .forgot-password:hover {
+    color: black;
+  }
+  .forgot-password:active {
+    border: 0;
+  }
+  .text-start {
+    text-align: left !important;
+  }
+  

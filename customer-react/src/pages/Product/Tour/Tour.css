@@ -1,0 +1,358 @@
+/* Thêm CSS cho phần Container */
+.tour-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 
+  0px 10px 30px rgba(0, 0, 0, 0.1), 
+  0px 6px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+  margin: 0px 12px;
+    
+}
+
+/* Điều chỉnh phần Row */
+.tour-row {
+  justify-content: center; /* Căn giữa các thẻ tour */
+  width: 100%;
+  max-width: 100%;
+      /* Đảm bảo chiều rộng tối đa là 100% */
+}
+
+.tour-block {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sort-control {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Khoảng cách giữa phần "Sắp xếp theo tiêu chí" và các thẻ sản phẩm */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Đảm bảo thẻ sản phẩm chiếm toàn bộ chiều cao */
+  margin-bottom: 20px; /* Khoảng cách giữa các thẻ */
+}
+
+.product-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px; /* Đặt chiều cao cố định cho hình ảnh */
+}
+
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1; /* Giúp nội dung card chiếm toàn bộ khoảng trống */
+  padding: 10px;
+}
+
+.product-card .card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.product-card .card-text {
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .product-card {
+      height: auto;
+  }
+}
+
+
+.sort-control {
+  margin-bottom: 20px; /* Khoảng cách giữa phần "Sắp xếp theo tiêu chí" và các thẻ sản phẩm */
+  width: 100%;
+}
+
+.product-card {
+  height: 100%;
+}
+.content-tour {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* modal tour */
+/* Tour.css */
+
+/* Style for the modal to make it look modern */
+.tour-modal .modal-content {
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tour-modal .modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-content-section {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.modal-content-section .form-label {
+  font-weight: 500;
+}
+
+.modal-content-section .form-control {
+  padding: 0.75rem;
+}
+
+.modal-content-section .form-check-label {
+  font-weight: 400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .modal-content-section {
+    padding: 15px;
+  }
+
+  .tour-modal .modal-title {
+    font-size: 1.3rem;
+  }
+
+  .tour-modal .modal-body img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tour-modal .modal-title {
+    font-size: 1.2rem;
+  }
+
+  .tour-modal .modal-body {
+    display: block;
+  }
+
+  .modal-content-section {
+    margin-top: 20px;
+  }
+  .tour-modal {
+    padding-left: 0;
+  }
+  .car-options {
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr) !important;
+    /* Hiển thị 2 cột */
+    gap: 1rem !important;
+    /* Khoảng cách giữa các phần tử */
+    width: 130% !important;
+  }
+
+
+}
+/* Đường viền nét đứt giữa phần hình ảnh và biểu mẫu */
+.border-dashed {
+  width: 1px;
+  height: 100%;
+  border-left: 2px dashed #ccc;
+}
+.modal-header {
+  border-bottom: 1px dashed #ccc;
+}
+/* paymodal */
+/* TourModal specific styles */
+.paymodal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tour-modal .modal-title {
+  font-size: 1.5rem;
+}
+
+.tour-modal .modal-content-section {
+  padding-left: 0;
+}
+
+.border-dashed {
+  width: 1px;
+  height: 100%;
+  border-left: 2px dashed #ccc;
+}
+
+.img-fluid {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* PaymentModal specific styles */
+.payment-modal .modal-body {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-modal .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.payment-modal .btn-success:hover {
+  background-color: white;
+  border-color: #28a745;
+  color: #28a745;
+}
+.payment-modal .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.payment-modal .text-end {
+  margin-bottom: 15px;
+}
+
+.payment-modal .text-primary {
+  color: #007bff;
+}
+
+.payment-modal .form-check-label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.payment-modal .form-check-label::before {
+  content: "\f155"; /* Icon for VNPAY (example) */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+/* chon anh */
+.image-select-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-select-container.selected {
+  border: 3px solid #079143; /* Hoặc bất kỳ kiểu dáng nào bạn muốn để hiển thị hình ảnh đã chọn */
+  border-radius: 8px;
+}
+
+.image-select-container img {
+  width: 100%;
+  height: auto;
+}
+.btn-tour {
+  background-color: #079143;
+  border: 1px solid #079143;
+  color: white;
+}
+.btn-tour:hover {
+  background-color: white;
+  border: 1px solid #079143;
+  color: #079143;
+}
+.btn-tour:active {
+  background-color: white;
+  border: 1px solid #079143;
+  color: #079143;
+}
+
+
+/* Container phân trang */
+.pagination {
+  display: flex;
+  justify-content: center;
+  /* Căn giữa phần tử phân trang */
+  padding: 0;
+  /* Xóa padding nếu có */
+  margin-top: 50px ;
+  /* Tùy chỉnh margin nếu cần */
+}
+
+/* Các phần tử của phân trang */
+.page-link:focus {
+  outline: none;
+  /* Xóa viền mặc định của liên kết */
+  box-shadow: none;
+  /* Xóa bóng hoặc viền không mong muốn khi nhấp vào */
+}
+
+/* Các phần tử của phân trang */
+.page-item {
+  display: inline-block;
+  margin: 0 5px;
+  /* Khoảng cách giữa các trang */
+}
+
+/* Liên kết phân trang */
+.page-link {
+  display: block;
+  padding: 10px 15px;
+  /* Padding cho liên kết */
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  /* Màu liên kết */
+  border: 1px solid #dee2e6;
+  /* Đường viền */
+  border-radius: 4px;
+  /* Bo góc */
+  font-size: 14px;
+  /* Kích thước chữ */
+}
+
+/* Các liên kết khi được kích hoạt */
+.page-link:hover {
+  background-color: #e9ecef;
+  /* Màu nền khi hover */
+  border-color: #adb5bd;
+  /* Đổi màu đường viền khi hover */
+}
+
+/* Các liên kết đang được chọn */
+.active .page-link {
+  background-color: #007bff;
+  /* Màu nền cho liên kết đang được chọn */
+  color: white;
+  /* Màu chữ cho liên kết đang được chọn */
+  border-color: #007bff;
+  /* Đổi màu đường viền cho liên kết đang được chọn */
+}
+
+/* Các phần tử phân trang bị ẩn */
+.break {
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+  color: #6c757d;
+}
+
+/* Container phân trang */
+
+
+.car-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Hiển thị 2 cột */
+  gap: 1rem;
+  /* Khoảng cách giữa các phần tử */
+  width: 100%;
+}
+
+

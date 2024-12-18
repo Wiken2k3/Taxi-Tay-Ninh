@@ -1,0 +1,22 @@
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    min-width: 700px;
+    /* Điều chỉnh theo kích thước tối thiểu cần thiết */
+}
+
+
+
+
+.ck-editor__editable {
+    min-height: 350px;
+    /* Thay đổi chiều cao tối thiểu của editor */
+  
+}
+
+.modal-90w .modal-dialog {
+    max-width: 90%;
+    /* Điều chỉnh kích thước của modal nếu cần */
+}

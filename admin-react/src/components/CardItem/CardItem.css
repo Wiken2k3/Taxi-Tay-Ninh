@@ -1,0 +1,39 @@
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    /* Tương đương với p-4 */
+    align-items: center;
+    background-color: #ffffff;
+    /* Màu nền trắng */
+    border: 1px solid #000000;
+    /* Viền màu đen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng nhẹ */
+}
+
+.card-item .bi {
+    flex-shrink: 0;
+    /* Đảm bảo icon không bị thu nhỏ */
+}
+
+.card-item div {
+    text-align: right;
+    /* Căn chỉnh nội dung từ phải qua trái */
+}
+
+.card-item span {
+    display: block;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    /* Màu chữ tiêu đề (có thể điều chỉnh theo nhu cầu) */
+}
+
+.card-item h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: normal;
+  
+    /* Màu chữ giá trị (có thể điều chỉnh theo nhu cầu) */
+}

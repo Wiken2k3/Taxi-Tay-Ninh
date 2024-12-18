@@ -1,0 +1,102 @@
+
+
+
+.header-login {
+    background-image: url('../../assets/images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* Chiếm toàn bộ chiều cao của viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-login .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Tối màu nền để làm nổi bật nội dung */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-login .form {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    max-width: 500px;
+    /* Giảm kích thước tối đa của form */
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Thêm hiệu ứng bóng */
+    box-sizing: border-box;
+}
+
+.header-login .logo {
+    width: 80px;
+    /* Kích thước logo tùy chỉnh */
+    margin-bottom: 20px;
+}
+
+.header-login input,
+.header-login button {
+    border-radius: 10px ;
+    border: 1px solid black;
+    padding: 10px;
+    transition: all 0.5s ease;
+    width: 100%;
+    max-width: 350px;
+
+    margin: 0 auto;
+    display: block;
+
+}
+
+.header-login input:focus {
+   
+    outline: none ;
+    /* Loại bỏ viền xanh khi focus */
+}
+.header-login .img-fluid{
+    max-width: 50%;
+    height: auto;
+}
+
+.header-login button {
+    background-color: rgba(183, 19, 19);
+    color: white;
+    margin-top: 10px;
+    transition: all 0.1s ease;
+}
+
+.header-login button:hover {
+    background-color: rgb(102, 19, 19);
+    color: white;
+}
+.header-login h1{
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Media Queries để đảm bảo tính responsive */
+@media (max-width: 576px) {
+    .header-login .form {
+        width: 80%;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .header-login .form {
+        width: 80%;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    z-index: 1050;
+
+    background-color: #ffffff !important;
+
+    transition: margin-left 0.3s ease;
+   
+}   
+
+.nav-link {
+     color: #000;
+
+     text-decoration: none;
+
+     padding: 10px;
+
+}
+
+
+
+.sidebar
+.nav-link.active {
+    color: #079143;
+
+    border-radius: 6px;
+
+}
+
+.menu {
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+

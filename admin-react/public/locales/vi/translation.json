@@ -1,0 +1,23 @@
+{
+  "login": "Đăng nhập",
+  "email": "Email",
+  "email_placeholder": "Nhập Email của bạn",
+  "password": "Mật khẩu",
+  "password_placeholder": "Nhập Mật khẩu của bạn",
+  "login_success": "Đăng nhập thành công",
+  "login_failed": "Đăng nhập thất bại",
+  "no_account": "Chưa có tài khoản?",
+  "sign_up": "Đăng ký",
+  "name_placeholder":"Họ và tên",
+  "name":"Tên",
+  "home":"Trang chủ",
+  "about":"Giới thiệu",
+  "contact":"Liên hệ",
+  "booking":"Đặt xe",
+  "pickup": "Nhập điểm đón",
+  "profile": "Hồ sơ",
+  "my Profile": "Thông tin của tôi",
+  "personal information": "Thông tin cá nhân",
+  "tour": "Chuyến du lịch",
+  "all tour": "Tất cả các chuyến du lịch"
+}

@@ -1,0 +1,127 @@
+/* sumit.css */
+
+/* Căn giữa nội dung của modal */
+
+.custom-modal.modal-body {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* Allow flex items to wrap */
+    justify-content: center;
+    /* Center align items horizontally */
+    align-items: center;
+    /* Center align items vertically */
+}
+
+/* Định dạng các cột bên trong modal */
+.sumit,
+.info {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Cột bên trái - Nội dung của .sumit */
+.sumit {
+    width: 60%;
+    /* Default width for larger screens */
+    border-right: 2px dashed #ddd;
+}
+
+/* Cột bên phải - Nội dung của .info */
+.info {
+    width: 40%;
+    /* Default width for larger screens */
+}
+
+/* Căn giữa nội dung trong các cột */
+.sumit,
+.info {
+    display: flex;
+    flex-direction: column;
+    /* Arrange content in a column */
+    justify-content: center;
+    /* Center content vertically within each column */
+}
+
+/* Điều chỉnh kích thước của các phần tử form cho màn hình nhỏ */
+@media (max-width: 767px) {
+
+    .sumit,
+    .info {
+        width: 100%;
+        /* Full width on smaller screens */
+        border-right: none;
+        border-bottom: 2px dashed #ddd;
+        /* Change border direction on small screens */
+    }
+
+    .info {
+        border-bottom: none;
+        /* Remove border if not needed */
+    }
+
+    .modal-body {
+        justify-content: center;
+        /* Center align columns on small screens */
+    }
+}
+
+/* Đặt kích thước của modal */
+.custom-modal {
+    width: 700px;
+    /* Set fixed width */
+    max-width: 100%;
+    /* Ensure it doesn't exceed viewport width */
+}
+
+/* Điều chỉnh kích thước modal trên màn hình nhỏ */
+@media (max-width: 767px) {
+    .custom-modal {
+        width: auto;
+        /* Revert to default width on smaller screens */
+    }
+}
+
+/* Các kiểu cho các thành phần form */
+.form-group {
+    margin-bottom: 20px;
+    /* Standard margin for spacing */
+}
+
+.form-control {
+    width: 100%;
+    /* Ensure input fields and selects use full available width */
+}
+
+/* Căn giữa nội dung form */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    /* Arrange label and input in a column */
+    align-items: center;
+    /* Center align items horizontally */
+}
+
+.custom-modal.form-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    /* Space between label and input */
+}
+
+/* Các kiểu cho nút gửi */
+.sumitcar {
+    background-color: #079143;
+    color: white;
+}
+
+.sumitcar:hover {
+    background-color: white;
+    border: 1px solid #079143;
+    color: #079143;
+}
+
+.sumitcar:active {
+    background-color: white;
+    border: 1px solid #079143;
+    color: #079143;
+}

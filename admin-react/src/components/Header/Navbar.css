@@ -1,0 +1,72 @@
+
+@media (max-width: 992px) {
+
+  .navbar-toggler {
+    margin-left: auto;
+  }
+}
+
+
+
+
+
+
+.navbar {
+  background-color: #ffffff;
+}
+
+
+/* .badge {
+  font-size: 0.75rem;
+  padding: 0.25em 0.4em;
+  border-radius: 1rem;
+  background-color: #dc3545;
+ 
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+@media (max-width: 768px) {
+  .badge {
+
+   
+    right: 405px;
+    left: 25px;
+  
+    font-size: 0.65rem;
+   
+    padding: 0.2em 0.3em;
+   
+  }
+} */
+
+.position-relative {
+  position: relative;
+  /* Đặt phần tử chứa badge có position relative */
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.25em 0.4em;
+  border-radius: 1rem;
+  background-color: #dc3545;
+  /* Màu đỏ */
+  color: #fff;
+  position: absolute;
+  top: 18px;
+  /* Điều chỉnh để badge nằm ở trên cùng của phần tử chứa */
+  right: 7px;
+  /* Điều chỉnh để badge nằm ở bên phải của phần tử chứa */
+  transform: translate(50%, -50%);
+  /* Đặt badge ở giữa của phần tử chứa */
+}
+
+@media (max-width: 768px) {
+  .badge {
+    font-size: 0.65rem;
+    padding: 0.2em 0.3em;
+    right: 367px;
+  
+  }
+}

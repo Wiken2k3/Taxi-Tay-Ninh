@@ -1,0 +1,9 @@
+td.content{
+    max-width: 200px;
+    word-wrap: break-word;
+    /* Đảm bảo nội dung dài xuống dòng */
+    overflow-wrap: break-word;
+    white-space: normal;
+    /* Đảm bảo nội dung có thể xuống dòng */
+    text-align: left;
+}

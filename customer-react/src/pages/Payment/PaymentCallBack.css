@@ -1,0 +1,58 @@
+/* General container styling */
+.pay{
+    min-height: 45vh;
+}
+.bg-none {
+    background-color: #f9f9f9;
+    /* Thay đổi màu nền nếu cần */
+}
+
+/* Form styling */
+.paymodal {
+    padding: 20px;
+}
+
+/* Styling for the title */
+.paymodal .form-label {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    /* Căn giữa nội dung */
+    display: block;
+    /* Đảm bảo label chiếm toàn bộ chiều rộng của container */
+}
+
+/* Styling for text elements */
+.paymodal.text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.paymodal .text i {
+    margin-right: 0.5rem;
+}
+
+
+
+.paymodal .text-danger {
+    color: #dc3545;
+    /* Thay đổi màu sắc nếu cần */
+    font-weight: bold;
+}
+
+/* Button styling */
+.paymodal .d-flex {
+    margin-top: 1.5rem;
+}
+
+.paymodal .d-flex .btn {
+    margin-left: 10px;
+}
+
+.paymodal .d-flex .btn:first-child {
+    margin-left: 0;
+}

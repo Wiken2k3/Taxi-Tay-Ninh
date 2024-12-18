@@ -1,0 +1,67 @@
+.profile-block {
+
+    padding: 40px 0 40px;
+
+}
+
+.profile-container {
+
+
+    box-shadow:
+    0px 10px 30px rgba(0, 0, 0, 0.1),
+    0px 6px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    margin: 0px 12px;
+
+}
+
+.title-holder h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.profile-email {
+    color: #666;
+}
+
+.border-class {
+    border-right: 1px solid silver;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+}
+.profile-row{
+padding: 0px 12px;
+
+}
+.form-label{
+    text-align: start;
+}
+
+
+
+@media (max-width: 767px) {
+    .border-class{
+        border-right:none
+    }
+        .profile-row .row {
+            padding: 0px 15px;
+    
+        }
+}

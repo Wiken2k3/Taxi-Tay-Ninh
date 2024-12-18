@@ -1,0 +1,23 @@
+{
+  "login": "Login",
+  "email": "Email",
+  "email_placeholder": "Enter your Email",
+  "password": "Password",
+  "password_placeholder": "Enter your Password",
+  "login_success": "Login successful",
+  "login_failed": "Login failed",
+  "no_account": "Don't have an account?",
+  "sign_up": "Sign Up",
+  "name_placeholder":"Full Name",
+  "name":"Name",
+  "home":"Home",
+  "about":"About",
+  "contact":"Contact",
+  "booking":"Booking",
+  "pickup": "Pickup location",
+  "profile": "Profile",
+  "my Profile": "My Profile",
+  "personal information": "Personal information",
+  "tour": "Tour",
+  "all tour": "All Tour"
+}

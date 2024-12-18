@@ -1,0 +1,94 @@
+
+.history-block{
+    
+  padding: 40px 0 40px;
+      
+}
+.row-history{
+  
+   
+    box-shadow:
+    0px 10px 30px rgba(0, 0, 0, 0.1),
+    0px 6px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    margin: 0px 12px;
+
+}
+.table-history{
+  padding: 12px;
+  /* margin-top: 68px; */
+  margin-top: 114px;
+}
+
+
+.custom-button {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+@media (max-width: 767px) {
+  .row-history.history-container {
+    padding: 10px;
+  }
+  .custom-button {
+    font-size: 0.875rem;
+  }
+
+  .align-content-center {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-button {
+    font-size: 0.9rem;
+    
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  /* .row-history .row {
+      width: 100%;
+      padding: 0 15px;
+      margin-left: 1px;
+  } */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .history-container {
+      max-width: 100%;
+      padding: 20px;
+  }
+
+  .custom-button {
+      font-size: 1rem;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 1080px) {
+  .history-container {
+      padding: 20px;
+  }
+
+  .custom-button {
+      font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .history-container {
+      padding: 20px;
+  }
+
+  .custom-button {
+      font-size: 1.05rem;
+  }
+}

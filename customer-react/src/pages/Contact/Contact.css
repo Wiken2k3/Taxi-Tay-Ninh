@@ -1,0 +1,140 @@
+.contact-block {
+  background-image: url('../../assets/images/bgcontact.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+}
+
+.contact-container {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 12px;
+
+}
+.contect-left {
+  max-width: 50%;
+  text-align: left;
+
+}
+.contect-right {
+  text-align: right;
+  max-width: 50%;
+}
+
+
+
+
+.contact-container h2 {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.text-left {
+  text-align: left;
+  /* Căn trái nội dung */
+}
+.text-green {
+  color: #079143;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.text-black {
+  color: black;
+  font-size: 40px;
+  margin-bottom: 20px;
+
+}
+
+.contact-form {
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px !important;
+}
+
+.contact-form .form-control {
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+
+.contact-form button:hover {
+  background-color: #fff;
+  /* Màu nền khi hover */
+  color: #079143;
+  /* Màu chữ khi hover */
+}
+
+.larger-input {
+  font-size: 1.2rem;
+  /* Tăng kích thước chữ */
+  padding: 10px 15px;
+  /* Tăng padding để input trông lớn hơn */
+  height: auto;
+  /* Đảm bảo chiều cao tự động */
+}
+
+/* Contact.css */
+
+.contact-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+
+  text-align: center;
+  color: #fff;
+  /* Màu chữ của nút khi chưa hover */
+  background-color: #079143;
+  /* Màu nền của nút khi chưa hover */
+  border: none;
+  border-radius: 15px;
+  /* Bo tròn các góc */
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+  color: #079143;
+  /* Màu chữ của nút khi hover */
+  background-color: #fff;
+  /* Màu nền của nút khi hover */
+}
+
+.contact-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Màu nền nhẹ khi hover (nếu cần) */
+  transition: left 1s;
+  z-index: 0;
+}
+
+.contact-button:hover::before {
+  left: 0;
+}
+
+.contact-button strong {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+
+  .contect-left{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-10 {
+    width: 100%;
+   
+  }
+}

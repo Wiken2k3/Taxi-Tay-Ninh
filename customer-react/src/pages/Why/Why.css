@@ -1,0 +1,97 @@
+/* Tour Row Styling */
+.why-row {
+    justify-content: center;
+    /* Căn giữa các thẻ tour */
+    width: 100%;
+    max-width: 100%;
+    /* Đảm bảo chiều rộng tối đa là 100% */
+}
+/* Why Card Styling */
+.why-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Căn giữa nội dung theo chiều dọc với không gian giữa các phần tử */
+    align-items: center;
+    /* Căn giữa nội dung theo chiều ngang */
+    padding: 24px;
+    height: 100%;
+    box-sizing: border-box;
+    /* Đảm bảo padding và border được tính trong tổng chiều cao */
+}
+
+/* Why Card Image Styling */
+.why-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị méo */
+    border-radius: 8px;
+    /* Bo tròn góc hình ảnh nếu cần */
+    margin-bottom: 8px;
+    /* Khoảng cách giữa hình ảnh và tiêu đề */
+}
+
+/* Why Card Title Styling */
+.why-card .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    /* Khoảng cách giữa tiêu đề và mô tả */
+    color: #079143;
+}
+.why-card .card-body{
+    padding: 0;
+}
+
+/* Why Card Text Styling */
+.why-card .card-text {
+    font-size: 0.9rem;
+  
+    text-align: left;
+    width: 100%;
+    /* Đảm bảo mô tả chiếm toàn bộ chiều rộng của Card */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .why-card {
+        padding: 15px;
+    }
+
+    .why-card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .why-card .card-title {
+        font-size: 1rem;
+    }
+
+    .why-card .card-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .why-card {
+        padding: 10px;
+    }
+
+    .why-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .why-card .card-title {
+        font-size: 0.9rem;
+    }
+
+    .why-card .card-text {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,125 @@
+.footer-custom {
+    background-color: #D9D9D9;
+    color: #333;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.footer-custom h4 {
+    color: #079143;
+    margin-bottom: 20px;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.text-custom-left,
+.text-custom-left-links,
+.text-custom-left-clause {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-custom-left-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-custom-left-links ul li {
+    margin-bottom: 8px;
+}
+
+.text-custom-left-links ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.text-custom-left-links ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer-custom .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-custom .row {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-custom p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-custom img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-custom .email-break {
+    display: block;
+    /* Ngắt dòng cho email */
+    word-break: break-all;
+    /* Ngắt chữ trong email nếu cần */
+    margin-top: 5px;
+}
+
+/* Điều chỉnh cho điện thoại di động */
+@media (max-width: 768px) {
+    .footer-custom h3 {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .text-custom-left,
+    .text-custom-left-links,
+    .text-custom-left-clause {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .footer-logo {
+        max-width: 120px;
+    }
+}
+
+.last-footer {
+    background: #079143;
+    text-align: center;
+    /* Căn giữa văn bản */
+    padding: 1rem 0;
+    display: flex;
+    /* Sử dụng Flexbox để căn giữa */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc nếu cần */
+}
+
+.last-footer p {
+    margin: 0;
+    /* Loại bỏ margin dưới thẻ p */
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    /* Đặt màu chữ cho rõ ràng trên nền xanh */
+}

@@ -1,0 +1,156 @@
+/* Home booking */
+.home-booking {
+    background-image: url('../../assets/images/bghome.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+
+}
+
+.home-container-booking {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+}
+
+.home-tablebooking {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+.home-tablebooking .form-control {
+    width: 100%;
+}
+
+.home-tablebooking .sumitcar {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.home-tablebooking .sumitcar {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container-booking .card {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* margin: 0px 12px !important; */
+
+}
+
+.home-container-booking .card-body {
+    display: block;
+
+}
+
+.card-body h2 {
+    border-bottom: 1px dashed rgb(164, 160, 160);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.home-tablebooking .form-label {
+    font-weight: 600;
+    color: whitesmoke;
+    width: auto;
+}
+
+.home-tablebooking .form-check-label {
+    color: whitesmoke;
+}
+
+.home-tablebooking .row {
+    width: 100%;
+
+}
+
+.home-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+.contact-table .contact-block{
+    padding:40px 0px;
+}
+.contact-table{
+    padding-top: 60px;
+        padding-bottom: 60px;
+}
+
+.comment-table{
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+     border-radius: 10px;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    font-style: bold;
+    color: #079143;
+
+}
+.title h2{
+    font-weight: bold;
+}
+
+.home-table .title {
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #079143;
+}
+
+/* For tablets and small screens */
+@media (max-width: 992px) {
+    .home-container-booking {
+        justify-content: center;
+        /* Center the content on tablet screens */
+    }
+
+    .home-tablebooking {
+        width: 100%;
+        /* Allow the booking table to take full width */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center align the form elements */
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 576px) {
+    .home-container-booking {
+        justify-content: center;
+        /* Center the content on mobile screens */
+        padding: 0 15px;
+        /* Add some padding for better spacing */
+    }
+
+    .home-tablebooking {
+        width: 100%;
+        /* Full width for mobile */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center align the form elements */
+    }
+
+    .home-tablebooking .form-control,
+    .home-tablebooking .sumitcar {
+        width: 100%;
+        /* Make inputs and buttons full width */
+    }
+
+}

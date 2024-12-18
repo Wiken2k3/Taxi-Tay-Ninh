@@ -1,0 +1,343 @@
+/* AppBooking.css */
+.box {
+  box-shadow:
+    0px 10px 30px rgba(0, 0, 0, 0.1),
+    0px 6px 20px rgba(0, 0, 0, 0.1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+  margin: 0px 12px;
+}
+
+
+.title-holder {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title-holder .subtitle:after {
+  content: '-';
+  margin: 0 0 0 5px;
+}
+
+.title-holder .subtitle:before {
+  content: '-';
+  margin: 0 5px 0 0;
+}
+
+.title-holder h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #777;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.custom-form-group {
+  text-align: start;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  /* Cho phép các radio button xuống dòng nếu không đủ chỗ */
+  gap: 10px;
+  /* Tạo khoảng cách giữa các radio button */
+  align-items: center;
+  /* Căn giữa các radio button với nhau */
+}
+
+@media (max-width: 767px) {
+  .title-holder h2 {
+    font-size: 1.5em;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-custom {
+    width: 100%;
+    margin-bottom: 10px;
+    /* Adjust spacing between buttons */
+  }
+
+  .custom-form-group {
+    text-align: center;
+  }
+}
+
+.booking-block .row {
+  align-items: center;
+  margin: 0;
+}
+
+.booking-block .row>div {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.booking-block .heading {
+  background: #e6e6e6;
+  padding: 15px 60px;
+}
+
+.booking-block .content .list-group-item {
+  padding: 10px 20px;
+  border: 0;
+  background: #f7f7f7;
+}
+
+.booking-block .content .list-group-item:nth-child(2n-1) {
+  background: #ededed;
+}
+
+.booking-block .btn-holder {
+  padding: 30px 20px;
+}
+
+.booking-block div[class*="col"]:nth-child(2) {
+  box-shadow: 0 0 40px 5px #e0e0e0;
+  position: relative;
+}
+
+.booking-block div[class*="col"]:nth-child(2) .heading {
+  padding: 30px 20px;
+  background: #079143;
+  color: #fff;
+}
+
+.booking-block div[class*="col"]:nth-child(2):before {
+  text-transform: uppercase;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background: #f76363;
+  color: #fff;
+  padding: 5px 10px;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.booking-block h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.booking-block .price {
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.booking-block {
+  padding: 40px 0 40px;
+}
+
+.btn-custom {
+  background-color: #f64b4b;
+  color: white;
+  border: 2px solid #f64b4b;
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  /* Adjust width as needed */
+  margin-top: 10px;
+}
+
+
+.btn-custom:hover {
+  background-color: white;
+  color: #f64b4b;
+  border: 2px solid #f64b4b;
+}
+
+/* Default (non-responsive) */
+.tablebooking .row {
+  width: 600px;
+}
+
+.tablebooking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 992px) {
+  .tablebooking .row {
+    width: 100%;
+    /* Remove fixed width to allow full width on small screens */
+  }
+
+  .tablebooking {
+    flex-wrap: wrap;
+    /* Allow elements to stack vertically */
+  }
+
+  .tablebooking .row {
+    width: 400px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-control {
+    width: 100%;
+    /* Ensure input fields use full available width */
+  }
+}
+
+/* Responsive (small screens) */
+@media (max-width: 767px) {
+  .tablebooking .row {
+    width: 100%;
+    /* Remove fixed width to allow full width on small screens */
+  }
+
+  .tablebooking {
+    flex-wrap: wrap;
+    /* Allow elements to stack vertically */
+  }
+
+  .tablebooking .row {
+    width: 400px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-control {
+    width: 100%;
+    /* Ensure input fields use full available width */
+  }
+}
+
+@media (max-width: 576px) {
+  .tablebooking {
+    width: 100%;
+    /* Ensure the container takes full width */
+  }
+
+  .tablebooking .row {
+    width: 100%;
+    padding: 0 15px;
+    /* Optional: add padding for better spacing on very small screens */
+  }
+
+
+}
+
+.boss {
+  padding: 0px 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Gmap {
+  padding-left: 12px;
+  width: 100%;
+  margin-right: 4px;
+}
+
+.sumitcar {
+  background-color: #079143;
+  color: white;
+}
+
+.sumitcar:hover {
+  background-color: white;
+  border: 1px solid #079143;
+  color: #079143;
+}
+
+.sumitcar:active {
+  background-color: white;
+  border: 1px solid #079143;
+  color: #079143;
+}
+
+/* Default (Desktop) Styles */
+.form-group {
+  margin-bottom: 20px;
+  /* Standard margin for spacing */
+}
+
+.form-control {
+  width: 100%;
+  /* Ensure input fields and selects use full available width */
+}
+
+/* Label Wrappers for Consistent Positioning */
+.pickup-label-wrapper,
+.dropoff-label-wrapper,
+.serviceType-label-wrapper,
+.departureDateTime-label-wrapper,
+.returnDateTime-label-wrapper,
+.carType-label-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  /* Align labels to the left */
+  margin-bottom: 5px;
+  /* Space between label and input */
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 767px) {
+  .form-group {
+    margin-bottom: 15px;
+    /* Adjust margin for smaller screens */
+  }
+
+  /* Responsive adjustments for labels */
+  .pickup-label-wrapper,
+  .dropoff-label-wrapper,
+  .serviceType-label-wrapper,
+  .departureDateTime-label-wrapper,
+  .returnDateTime-label-wrapper,
+  .carType-label-wrapper {
+    display: block;
+    /* Stack labels and inputs vertically */
+    margin-bottom: 10px;
+    /* Space between label and input */
+  }
+
+  .form-control {
+    width: 100%;
+    /* Ensure full width on small screens */
+  }
+}
+
+/* .text-label .form-label {
+  font-weight: 600;
+  
+} */
+.form-label {
+  font-weight: 600;
+}

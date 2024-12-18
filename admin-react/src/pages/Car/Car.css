@@ -1,0 +1,8 @@
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    min-width: 700px;
+    /* Điều chỉnh theo kích thước tối thiểu cần thiết */
+}

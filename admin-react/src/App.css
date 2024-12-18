@@ -1,0 +1,24 @@
+
+.content {
+  margin-left: 260px;
+  /* Kích thước của Sidebar */
+  transition: margin-left 0.3s ease;
+  width: calc(100% - 260px);
+
+  background-color:rgb(198, 221, 208) !important;
+  min-height: 92.2vh;
+    /* Đảm bảo chiếm toàn bộ chiều dài nội dung */
+
+}
+
+/* .content-collapsed {
+  margin-left: 0;
+} */
+
+@media (max-width: 768px) {
+  .content{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+

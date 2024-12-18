@@ -1,0 +1,107 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+.table {
+  min-width: 800px;
+  /* Điều chỉnh theo kích thước tối thiểu cần thiết */
+}
+.text-end {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+/* Container phân trang */
+.pagination {
+  display: flex;
+  justify-content: center;
+  /* Căn giữa phần tử phân trang */
+  padding: 0;
+  /* Xóa padding nếu có */
+  margin: 5px 0;
+  /* Tùy chỉnh margin nếu cần */
+}
+
+/* Các phần tử của phân trang */
+.page-link:focus {
+  outline: none;
+  /* Xóa viền mặc định của liên kết */
+  box-shadow: none;
+  /* Xóa bóng hoặc viền không mong muốn khi nhấp vào */
+}
+
+/* Các phần tử của phân trang */
+.page-item {
+  display: inline-block;
+  margin: 0 5px;
+  /* Khoảng cách giữa các trang */
+}
+
+/* Liên kết phân trang */
+.page-link {
+  display: block;
+  padding: 10px 15px;
+  /* Padding cho liên kết */
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  /* Màu liên kết */
+  border: 1px solid #dee2e6;
+  /* Đường viền */
+  border-radius: 4px;
+  /* Bo góc */
+  font-size: 14px;
+  /* Kích thước chữ */
+}
+
+/* Các liên kết khi được kích hoạt */
+.page-link:hover {
+  background-color: #e9ecef;
+  /* Màu nền khi hover */
+  border-color: #adb5bd;
+  /* Đổi màu đường viền khi hover */
+}
+
+/* Các liên kết đang được chọn */
+.active .page-link {
+  background-color: #007bff;
+  /* Màu nền cho liên kết đang được chọn */
+  color: white;
+  /* Màu chữ cho liên kết đang được chọn */
+  border-color: #007bff;
+  /* Đổi màu đường viền cho liên kết đang được chọn */
+}
+
+/* Các phần tử phân trang bị ẩn */
+.break {
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+  color: #6c757d;
+}
+
+.modal-content {
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.modal-body h5 {
+  font-weight: bold;
+}
+
+.modal-body p {
+  margin-bottom: 30px;
+}
+
+
+
+button.btn-outline-danger {
+  color: #F95A2C;
+  border-color: #F95A2C;
+}
+
+button.btn-outline-danger:hover {
+  background-color: #F95A2C;
+  color: white;
+}

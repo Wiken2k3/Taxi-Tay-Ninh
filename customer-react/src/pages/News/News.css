@@ -1,0 +1,101 @@
+.news-block{
+  padding: 40px 0 40px;
+}
+
+.news-container{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+
+.news-container .card-body{
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-grow: 1;
+      /* Giúp nội dung card chiếm toàn bộ khoảng trống */
+      padding: 10px;
+}
+
+.news-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  /* Đặt chiều cao cố định cho hình ảnh */
+}
+.news-container .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+.news-row {
+  justify-content: center;
+  /* Căn giữa các thẻ tour */
+  width: 100%;
+  max-width: 100%;
+  /* Đảm bảo chiều rộng tối đa là 100% */
+}
+
+  
+  .tin-tuc-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100%;
+    
+    text-align: left;
+  }
+  
+  .tin-tuc-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+/*   
+  .tin-tuc-item img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .tin-tuc-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .tin-tuc-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .tin-tuc-item button {
+    background-color: #079143;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tin-tuc-item button:hover {
+    background-color: #066b33;
+  }
+   */
+  /* Responsive adjustments */
+  

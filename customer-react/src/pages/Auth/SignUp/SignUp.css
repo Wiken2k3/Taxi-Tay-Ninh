@@ -1,0 +1,75 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px; 
+    padding-bottom: 60px;
+  }
+  .signup-block {
+    padding: 40px 0;
+  }
+  .signup-card {
+    width: 100%;
+    max-width: 600px; /* Giới hạn chiều rộng tối đa */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .signup-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .signup-form .form-control {
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .signup-button {
+    width: 100%; /* Đảm bảo nút bấm chiếm toàn bộ chiều rộng của form */
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .signup-button {
+    border: 1px solid #079143;
+    background-color: white;
+    color: #079143;
+  }
+  
+  .signup-button:hover {
+    background-color: #079143;
+    color: white;
+  }
+  
+  .Login-button {
+    width: 40%;
+    background-color: #079143;
+    border: 1px solid #079143;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .Login-button:hover {
+    background-color: white;
+    color: #079143;
+    border: 1px solid #079143;
+  }
+  
+  .forgot-password:hover {
+    color: black;
+  }
+  
+  .text-start {
+    text-align: left !important;
+  }
+  

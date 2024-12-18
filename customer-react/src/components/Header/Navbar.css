@@ -1,0 +1,188 @@
+/* General Styles for Navbar */
+.navbar-custom {
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-custom.navbar-scrolled {
+  background-color: whitesmoke;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed !important;
+}
+
+.navbar-custom .navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-custom .navbar-brand img {
+  margin: 0px 12px;
+  height: 80px;
+}
+
+.navbar-custom .nav-link {
+  color: #079143;
+  font-weight: bold;
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-container {
+  width: 100%;
+}
+
+.nav-right {
+  width: 30%;
+  justify-content: right;
+}
+
+.nav-left {
+  width: 70%;
+}
+
+.navbar-custom .dropdown-menu-custom {
+  right: 0 !important;
+  left: auto !important;
+  min-width: 160px;
+  width: auto;
+  margin: 0px 12px !important;
+}
+
+.navbar-custom .dropdown-menu.show {
+  position: absolute;
+}
+
+.navbar-custom .dropdown-toggle-custom {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #079143 !important;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px 12px !important;
+}
+
+.navbar-custom .dropdown-toggle-custom:hover {
+  background: transparent !important;
+  color: #079143 !important;
+}
+
+/* Responsive Design Adjustments */
+
+/* Mobile and Small Devices */
+@media (max-width: 767px) {
+  .navbar-custom .nav-link {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .navbar-custom .navbar-brand img {
+    height: 50px;
+  }
+
+  .nav-left,
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav-right {
+    margin-top: 10px;
+  }
+}
+
+/* iPad Mini */
+@media only screen and (min-width: 768px) and (max-width: 834px) {
+  .navbar-custom .nav-link {
+    font-size: 18px;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-custom .navbar-brand img {
+    height: 60px;
+  }
+
+  .nav-left,
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* iPad Air */
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .navbar-custom .nav-link {
+    font-size: 18px;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-custom .navbar-brand img {
+    height: 60px;
+  }
+
+  .nav-left,
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Surface Pro 7 */
+@media only screen and (min-width: 912px) and (max-width: 1280px) {
+  .navbar-custom .nav-link {
+    font-size: 18px;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-custom .navbar-brand img {
+    height: 60px;
+  }
+
+  .nav-left,
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Asus Zenbook Fold */
+@media only screen and (min-width: 1200px) and (max-width: 1536px) {
+  .navbar-custom .nav-link {
+    font-size: 20px;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-custom .navbar-brand img {
+    height: 70px;
+  }
+
+  .nav-left,
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
